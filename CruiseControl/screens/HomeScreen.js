@@ -10,11 +10,13 @@ const HomeScreen = () => {
       <View style={tw`p-5`}>
         <Image 
             style={{
-                width: 100, height: 100, resizeMode: 'contain'
+                width: 350, height: 100, resizeMode: 'contain'
             }}
-            source={{
-                uri: "https://links.papareact.com/gzs",
-            }}
+            source={
+                // {uri: "https://links.papareact.com/gzs"}
+                // Redo logo at later stage!!
+                require('../assets/images/cruizecontrollogo.png')
+            }
         />
 
         <NavOptions />
